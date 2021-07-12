@@ -85,7 +85,7 @@ Donate Feature Haven't Added Yet
     context.bot.send_message(chat_id=update.effective_chat.id,text=donate )
 
 def main():
-    updater = Updater(os.environ.get("BOT_TOKEN", ""), use_context=True)
+    updater = Updater(os.environ.get("BOT_TOKEN", "1898039570:AAEixLvZWEVHp3PLqJ7dF8cTAsUM4cPvqVU"), use_context=True)
     dp = updater.dispatcher
     start_handler = CommandHandler("start",start)
     dp.add_handler(start_handler)
