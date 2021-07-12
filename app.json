@@ -9,7 +9,7 @@
     "quotes",
     "productivity"
   ],
-  "repository": "https://github.com/Gowtham2003/BrainyQuoteBot",
+  "repository": "https://github.com/featzai55/BrainyQuoteBot",
   "env": {
     "BOT_TOKEN": {
       "description": "Set Your Bot Token Here",
