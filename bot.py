@@ -44,13 +44,13 @@ def start(update,context):
     context.bot.send_message(chat_id=update.effective_chat.id,text=name)
 
     welcome = """
-Hi I'm Brainy Quote Bot
+Hi I'm Miyuki Shirogane, ofc the President! 
 
 Send /help for Help 
 
-Made With ❤️ In India By @Gowtham_2003
+Made By @featzai
 
-Join @AlphaProjects for More Projects and Updates
+Contact @ftfridaybot for Issues/Bugs etc
 """
     context.bot.send_message(chat_id=update.effective_chat.id,text=
 welcome)
@@ -62,7 +62,7 @@ Send Me Any Topic or Word to Me
 
 I'll Send You A Quote based On Your Query
 
-For Example : "Nature" , "Tech" , "Alone"   and Even "Hi" and "Hello" 😁 
+For Example : "love" , "kaguya" , "ishigami"   and Even "Hi" and "Hello"  
 
 Type
 
@@ -70,9 +70,9 @@ Type
 
 /donate To Donate Me (Still Not Added)
 
-if Any Issues Contact : @Gowtham_2003
+if Any Issues Contact : @featzai 
 
-A Part of @AlphaProjects 
+Report Bugs @ftfridaybot 
 
 '''
     context.bot.send_message(chat_id=update.effective_chat.id,text=helpmessage)
@@ -81,9 +81,6 @@ def donate(update,context):
     donate = '''
 Donate Feature Haven't Added Yet 
 
-If You Want to Donate My Works 
-Contact Me :
-    Telegram : @Gowtham_2003 or @Gowtham2003
 '''
     context.bot.send_message(chat_id=update.effective_chat.id,text=donate )
 
